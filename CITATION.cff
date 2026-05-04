@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this repository (code or data) in your research, please cite the accompanying paper."
+title: "Provable and scalable quantum Gaussian processes"
+authors:
+  - family-names: "Jäger"
+    given-names: "Jonas"
+  - family-names: "Braccia"
+    given-names: "Paolo"
+  - family-names: "Bermejo"
+    given-names: "Pablo"
+  - family-names: "Algaba"
+    given-names: "Manuel G."
+  - family-names: "García-Martín"
+    given-names: "Diego"
+  - family-names: "Cerezo"
+    given-names: "M."
+url: "https://github.com/Jonas-Jaeger/provable-scalable-quantum-gaussian-processes"
+preferred-citation:
+  type: preprint
+  title: "Provable and scalable quantum Gaussian processes for quantum learning"
+  authors:
+    - family-names: "Jäger"
+      given-names: "Jonas"
+    - family-names: "Braccia"
+      given-names: "Paolo"
+    - family-names: "Bermejo"
+      given-names: "Pablo"
+    - family-names: "Algaba"
+      given-names: "Manuel G."
+    - family-names: "García-Martín"
+      given-names: "Diego"
+    - family-names: "Cerezo"
+      given-names: "M."
+  year: 2026
+  repository: "arXiv"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2605.00099"

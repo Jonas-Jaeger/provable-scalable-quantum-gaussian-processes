@@ -116,3 +116,18 @@ For reference, the setup.jl script will automatically install the following pack
  * StatsBase
  * Yao
  * Zygote
+ 
+
+# Citation
+If you use this repository (code or data) in your research, please cite the accompanying paper:
+```bibtex
+@misc{jaeger2026provablescalablequantumgaussian,
+      title={Provable and scalable quantum Gaussian processes for quantum learning}, 
+      author={Jonas Jäger and Paolo Braccia and Pablo Bermejo and Manuel G. Algaba and Diego García-Martín and M. Cerezo},
+      year={2026},
+      eprint={2605.00099},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2605.00099}, 
+}
+```
