@@ -1,0 +1,134 @@
+{
+  "true_function": {
+    "color": "#000000",
+    "dashes": [8, 2],
+    "linewidth": 0.75,
+    "zorder": 5,
+    "label": "Ground truth"
+  },
+  "gp_mean": {
+    "color": "#0072B2",
+    "linestyle": "-",
+    "linewidth": 1.5,
+    "zorder": 4,
+    "label": "QGP"
+  },
+  "gp_stds": {
+    "color": "#0072B2",
+    "alpha": 0.3,
+    "zorder": 2,
+    "linewidth": 0.0,
+    "label": "__nolegend__"
+  },
+  "observations": {
+    "color": "#E69F00",
+    "marker": "o",
+    "linestyle": "none",
+    "alpha": 0.8,
+    "zorder": 3,
+    "label": "training points",
+    "markeredgecolor": "black",
+    "markeredgewidth": 0.5
+  },
+  "regression":  {
+    "xlabel": "$t$",
+    "ylabel": "$\\langle O \\rangle$"
+  },
+  "classification": {
+    "xlabel": "$J_1 / J_2$",
+    "ylabel": "$p( y=0  | J_1  /  J_2 )$ [%]"
+  },
+  "optimization": {
+    "scatter": {
+      "edgecolor": "black",
+      "linewidths": 0.5,
+      "zorder": 55
+    }
+  },
+  "benchmarking": {
+    "axes": {
+      "xlabel_ntp": "Number training points $N$",
+      "xlabel_obs": "Training observation shots $n_{\\mathrm{s}}^{\\mathrm{obs}}$ (matched across methods)",
+      "xlabel_pred": "Model shots (corresponding to $n_{\\mathrm{s}}^{\\kappa}$)",
+      "xlabel_total": "Mean total shots per prediction", 
+      "ylabel_mse": "Mean squared error (MSE)",
+      "xscale": "log",
+      "yscale": "log",
+      "grid_major": {
+        "which": "major",
+        "ls": "-",
+        "alpha": 0.3
+      },
+      "grid_minor": {
+        "which": "minor",
+        "ls": ":",
+        "alpha": 0.15,
+        "linewidth": 0.5
+      }
+    },
+    "common_kwargs": {
+    },
+    "methods": {
+      "gp": {
+        "label": "QGP",
+        "cmap": "Blues",
+        "marker": "X",
+        "zorder": 3
+      },
+      "gp_active": {
+        "label": "QGP (active)",
+        "color": "#542788",
+        "cmap": "Purples",
+        "linestyle": "--",
+        "marker": "o",
+        "zorder": 3
+      },
+      "hl": {
+        "label": "HL",
+        "color": "#cb181d",
+        "cmap": "Reds",
+        "linestyle": "-.",
+        "marker": "d",
+        "zorder": 3
+      },
+      "param": {
+        "label": "Parametric",
+        "color": "#238b45",
+        "cmap": "Greens",
+        "linestyle": ":",
+        "marker": "P",
+        "zorder": 3
+      },
+      "mean": {
+        "label": "Const. Mean",
+        "color": "darkgray",
+        "cmap": "Greys",
+        "linestyle": ":",
+        "marker": "v",
+        "zorder": 2
+      },
+      "lin": {
+        "label": "Linear Interp.",
+        "color": "dimgray",
+        "cmap": "Greys",
+        "linestyle": "--",
+        "marker": "^",
+        "zorder": 2
+      },
+      "cub": {
+        "label": "Cubic Interp.",
+        "color": "black",
+        "cmap": "Greys",
+        "linestyle": "-.",
+        "marker": "<",
+        "zorder": 2
+      }
+    }
+  },
+  "fig_width_inches_full": 6.75,
+  "fig_width_inches_half": 3.375,
+  "macros": {
+    "shotsobs": "n_{\\mathrm{s}}^{\\mathrm{obs}}",
+    "shotsker": "n_{\\mathrm{s}}^{\\kappa}"
+  }
+}

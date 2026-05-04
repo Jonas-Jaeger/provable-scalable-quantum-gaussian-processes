@@ -1,0 +1,44 @@
+# --- Fonts & Text ---
+font.family : serif
+font.serif : Computer Modern Roman, CMU Serif, Times New Roman, DejaVu Serif
+font.size : 10.0
+mathtext.fontset : cm
+
+# --- Font Sizes ---
+axes.titlesize : 10.0
+axes.labelsize : 10.0
+xtick.labelsize : 8.0
+ytick.labelsize : 8.0
+legend.fontsize : 8.0
+
+# --- Lines and markers ---
+lines.linewidth : 1.0
+lines.markersize : 4
+
+# --- Axes and formatting ---
+axes.linewidth : 0.8
+xtick.major.width : 0.8
+ytick.major.width : 0.8
+
+# --- Tick Formatting ---
+xtick.direction : out
+ytick.direction : out
+xtick.top : False
+ytick.right : False
+
+# --- Framestyle (:box) ---
+# Matplotlib does this by default, but this ensures all borders are drawn
+axes.spines.top : True
+axes.spines.right : True
+axes.spines.bottom : True
+axes.spines.left : True
+
+legend.frameon : True
+legend.fancybox: False
+
+# Output
+figure.autolayout: True  # triggers tight layout
+figure.dpi : 300
+savefig.dpi : 600
+savefig.bbox : tight
+savefig.transparent : True

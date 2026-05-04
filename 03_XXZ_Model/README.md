@@ -1,0 +1,1 @@
+*Note:* To accommodate storage constraints, the dataset provided in the `data/` directory has been downsampled by a factor of two compared to the data used for the figures in the manuscript. This reduction in resolution introduces no noticeable qualitative or quantitative differences in the results.
